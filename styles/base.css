@@ -78,7 +78,8 @@ nav a:hover {
 main {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    margin: 1rem;
+    margin: 1rem auto;
+    max-width: 90%;
 }
 
 .card {
@@ -116,6 +117,23 @@ section .title {
     padding: 1rem;
     border-radius: 1rem;
     box-shadow: 0 0 4px #333;
+}
+
+.resources {
+    height: 20rem;
+    align-content: center;
+}
+
+.resources a {
+    font-size: 1.2rem;
+    font-weight: normal;
+    text-decoration: none;
+    color: var(--black);
+    line-height: 2rem;
+}
+
+.resources a:hover {
+    color: var(--accent2-color);
 }
 
 .card hr {
