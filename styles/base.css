@@ -106,14 +106,16 @@ section .title {
 .card .profile img {
     float: right;
     margin: 0 0 1rem 1rem;
-    box-shadow: 0 0 5px #333;
+    box-shadow: 0 0 4px #333;
+    border-radius: 1rem;
 }
 
 .country img {
     float: left;
     margin: 0 2rem 1rem 0;
     padding: 1rem;
-    box-shadow: 0 0 5px #333;
+    border-radius: 1rem;
+    box-shadow: 0 0 4px #333;
 }
 
 .card hr {
