@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
     place-self: center;
 }
 
-p {
+p, * {
     font-family: "Poppins", Arial, sans-serif;
 }
 
@@ -117,6 +117,10 @@ section .title {
     padding: 1rem;
     border-radius: 1rem;
     box-shadow: 0 0 4px #333;
+}
+
+.country h3 {
+    text-align: center;
 }
 
 .resources {
