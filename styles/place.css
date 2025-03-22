@@ -1,0 +1,117 @@
+:root {
+    /* ——— Colour Schema ——— */
+    --azure-blue: rgba(9, 94, 165, 1); /* Azure Blue */
+    --primary-color: #56DD52; /* Primary Green */
+    --secondary-color: #49BB45; /* Secondary Green */
+    --teal-blue: #0F4284; /* Teal Blue */
+    --accent1-color: #3C9939; /* Accent Green 1 */
+    --accent2-color: #2F772C; /* Accent Green 2 */
+    --white: #FFFFFF; /* White */
+    --black: #000000; /* Black */
+}
+
+/* ——— Typography ——— */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 800;
+    color: var(--accent2-color);
+    place-self: center;
+}
+
+h1 {
+    color: var(--white);
+}
+
+p, * {
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+body {
+    background: #F4F4F4;
+}
+
+header,
+footer {
+    padding: 1rem;
+    background: var(--accent2-color);
+    color: var(--white);
+    text-align: center;
+}
+
+section {
+    padding: 1rem;
+    margin: 1rem auto;
+    background: var(--white);
+    text-align: center;
+}
+
+.hero {
+    padding: 0px;
+    margin: 0;
+}
+.hero img {
+    width: 100%;
+}
+
+section img {
+    margin: auto;
+}
+
+a {
+    color: lightblue;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    h2 {
+        background: var(--accent2-color);
+        color: var(--white);
+        padding: 1rem;
+        margin: auto;
+        max-width: 100%;
+        border-radius: 1rem 1rem 0 0rem;
+    }
+    
+    .weather h2::after {
+        content: " 🌦️";
+        font-size: 2rem;
+    }
+    
+    main {
+        position: relative;
+    }
+    
+    section.data,
+    section.weather {
+        position: absolute;
+        padding: 0;
+        border-radius: 1rem;
+        background: rgba(255, 255, 255, 0.7);
+    }
+    
+    section.weather {
+        bottom: 2rem;
+        right: 2rem;
+    }
+    
+    section.data {
+        top: 2rem;
+        left: 2rem;
+    }
+    
+    section .text-content {
+        padding: 1rem 4rem;
+    }
+    
+    section.weather img {
+        display: none;
+    }
+    
+    section.hero {
+        height: auto;
+        overflow: hidden;
+    }
+}

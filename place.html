@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Otite Philemon Idogun’s personal home page for WDD 131 - Dynamic Web Fundamentals course projects.">
+    <meta name="author" content="Otite Philemon Idogun">
+	<title>Country Place Page</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="scripts/place.js" defer></script>
+    <script src="scripts/get-dates.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Abuja, Nigeria</h1>
+    </header>
+    <main>
+        <section class="hero">
+    		<picture>
+    			<source media="(min-width: 1500px)" srcset="images/zuma-rock-large.webp">
+    			<source media="(min-width: 1000px)" srcset="images/zuma-rock-medium.webp">
+    			<img src="images/zuma-rock-small.webp" alt="Zuma Rock, Nigeria" width="500" height="auto">
+    		</picture>
+        </section>
+        <section class="data">
+            <h2>Data</h2>
+            <div class="text-content">
+                <p><strong>Area:</strong> <span id="area">Loading...</span></p>
+                <p><strong>Population:</strong> <span id="population">Loading...</span></p>
+                <p><strong>Capital:</strong> <span id="capital">Loading...</span></p>
+                <p><strong>Languages:</strong> <span id="languages">Loading...</span></p>
+                <p><strong>Currency:</strong> <span id="currency">Loading...</span></p>
+                <p><strong>Time Zone:</strong> <span id="timezone">Loading...</span></p>
+                <p><strong>Calling Code:</strong> <span id="callingCode">Loading...</span></p>
+                <p><strong>Internet TLD:</strong> <span id="tld">Loading...</span></p>
+            </div>
+        </div>
+        </section>
+        <section class="weather">
+            <h2>Weather</h2>
+            <div class="text-content">
+                <img src="images/weather-icon.svg" width="50">
+                <p><strong>Temperature:</strong> <span id="temperature">Loading...</span></p>
+                <p><strong>Conditions:</strong> <span id="conditions">Loading...</span></p>
+                <p><strong>Wind Speed:</strong> <span id="wind-speed">Loading...</span></p>
+                <p><strong>Wind Chill:</strong> <span id="wind-chill">Loading...</span></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <p>&copy; <span id="currentyear"></span> - Otite Philemon Idogun - Nigerian</p>
+            <p>Last Modified: <span id="lastModified"></span></p> 
+            <a href="https://byui-cse.github.io/wdd131-ww-course/images/place-mobile.drawio.png">See Wireframe</a>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+
