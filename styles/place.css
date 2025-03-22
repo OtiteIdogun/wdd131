@@ -58,7 +58,7 @@ section img {
 }
 
 a {
-    color: lightblue;
+    color: var(--white);
     text-decoration: none;
 }
 a:hover {
