@@ -1,0 +1,185 @@
+:root {
+    --azureblue: rgba(9, 94, 165, 1);
+    --primary-color: #065674;
+    --secondary-color: #0F4284;
+    --tealblue: rgba(15, 66, 133, 1.0);
+    --accent1-color: #09A53C;
+    --accent2-color: #06742A;
+    --accent3-color: #248232;
+    --accent4-color: #2BA84A;
+    --white: #FFF;
+    --black: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0px solid black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 800;
+    color: var(--primary-color);
+    place-self: center;
+    margin: 1rem 0;
+}
+
+p,
+a,
+li {
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    background: #f0f0f0;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 1rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div {
+    display: flex;
+    justify-content: space-around;
+}
+
+header h1 {
+    color: var(--white);
+}
+
+#toggleBtn {
+    display: none;
+    background: none;
+    border: none;
+    color: var(--white);
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    margin: auto 0;
+}
+
+#toggleBtn::before {
+    content: "☰";
+}
+
+#toggleBtn.open::before {
+    content: "✕";
+    font-weight: 800;
+}
+
+#toggleBtn.open {
+    padding: 0.5rem 1.0rem;
+}
+
+#toggleBtn:hover {
+    background: rgba(0, 0, 0, 0.3);
+    color: var(--white);
+    border-radius: 0.6rem;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--white);
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 700;
+    gap: 0;
+    padding: 0.8rem 0.4rem;
+    margin: 0 0.1rem;
+    width: 100px;
+}
+
+nav a:hover {
+    color: inherit;
+    background: rgb(0, 0, 0, 0.4);
+    border-radius: 0.4rem;
+}
+
+nav a.active {
+    color: gold;
+    border-radius: 0.0rem;
+    text-shadow: 0 0 1px #333;
+
+}
+
+main {
+    width: 100%;
+    margin: 2rem 0 4rem 0;
+}
+
+main h2 {
+    margin: 0 0 2rem 0;
+}
+
+.image-album {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+    max-width: 63rem;
+    margin: auto;
+    padding: 0 1rem;
+    justify-content: space-evenly;
+}
+
+.temple-card {
+    height: auto-fit;
+    max-width: 25rem;
+    align-content: space-around;
+    padding: 1rem;
+    background: #DDD;
+    text-align: center;
+    justify-self: center;
+}
+
+article {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+figure {
+    text-align: center;
+}
+
+picture img {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    background: #000;
+    animation: fade 10s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    
+    100% { 
+        opacity: 1;
+    }
+} 
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--white);
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+

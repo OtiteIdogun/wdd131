@@ -1,0 +1,51 @@
+@media (max-width: 980px) {
+    header {
+        padding: 1.0rem 1rem;
+        padding: 0;
+        display: block;
+    }
+
+    header div {
+        justify-content: space-between;
+        padding: 1.0rem 1.5rem;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    #toggleBtn {
+        display: block;
+    }
+
+    nav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        flex-grow: 3;
+        flex-wrap: wrap;
+        align-content: center;
+        text-align: center;
+        margin-top: 1rem;
+        background: #065674;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav a {
+        color: white;
+        text-align: center;
+        width: 100%;
+        font-weight: bold;
+    }
+    
+    nav a:hover {
+        text-shadow: 0 0 1px #333;
+        background: rgb(0, 0, 0, 0.4);
+        border-radius: 0rem;
+    }
+
+    nav.open {
+        display: flex;
+    }
+}
