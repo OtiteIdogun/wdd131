@@ -163,7 +163,7 @@ picture img {
     height: auto;
     margin: auto;
     background: #000;
-    animation: fade 10s;
+    animation: fade 5s;
 }
 
 @keyframes fade {
