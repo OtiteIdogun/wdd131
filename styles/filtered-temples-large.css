@@ -141,7 +141,7 @@ main h2 {
 }
 
 .temple-card {
-    height: auto-fit;
+    height: auto;
     max-width: 25rem;
     align-content: space-around;
     padding: 1rem;
