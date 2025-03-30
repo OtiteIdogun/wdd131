@@ -142,7 +142,7 @@ main h2 {
 
 .temple-card {
     height: auto;
-    max-width: 25rem;
+    width: 100%;
     align-content: space-around;
     padding: 1rem;
     background: #DDD;
@@ -164,6 +164,7 @@ picture img {
     height: auto;
     margin: auto;
     background: #000;
+    color: #fff;
     animation: fade 5s;
 }
 

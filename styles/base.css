@@ -160,3 +160,63 @@ section .title {
 footer {
     text-align: center;
 }
+
+
+@media (max-width: 520px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+    
+    nav {
+        flex-direction: column; 
+    }
+
+    main {
+        max-width: 100%;
+        margin: 1rem;
+        font-size: 1rem;
+        color: #333;
+        line-height: 1.5rem;
+    }
+    
+    .card {
+        margin: 1rem 0;
+    }
+
+    .card .profile img {
+        width: 100%;
+        margin: 2rem 0 2rem 0;
+    }
+
+    .country img {
+        width: 88%;
+        margin: 1rem auto 2rem auto;
+        padding: 2rem 1rem;
+        border: 0; 
+    }
+    
+   .country h3 {
+       font-size: 1.3rem;
+   }
+}
+
+
+
+/* Media Queries 
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column; /* Stack nav items on smaller screens /
+    }
+
+    .card {
+        flex: 1 1 100%; /* Full width on smaller screens /
+    }
+}
+
+@media (max-width: 520px) {
+    main {
+        max-width: 100%;
+        margin: 1rem auto;
+    }
+}
+*/
