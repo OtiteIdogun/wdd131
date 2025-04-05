@@ -3,7 +3,7 @@
     */
     --azureblue: rgba(9, 94, 165, 1);
     --primary: #065674;
-    --secondary-color: #0F4284; /* 1526A5 */
+    --secondary-color: #2c3e50; /* 1526A5 */
     --tealblue: rgba(15, 66,133, 1.0); /* #0F4284; /* 1526A5 */
     --accent1-color: #09A53C;
     --accent2-color: #06742A;
@@ -18,14 +18,14 @@
 /* ——— Typography
 */
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Montserrat", Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     font-weight: 800;
     color: var(--secondary-color);
     place-self: center;
 }
 
-p, * {
-    font-family: "Poppins", Arial, sans-serif;
+p {
+    font-family: "Montserrat", Arial, sans-serif;
 }
 
 body {
